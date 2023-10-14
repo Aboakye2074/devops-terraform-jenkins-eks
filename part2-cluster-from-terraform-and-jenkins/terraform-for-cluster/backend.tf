@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mubin-devops-cicd-terraform-eks"
-    region = "us-east-1"
+    bucket = "tony-images-202020"
+    region = "us-east-2"
     key = "eks/terraform.tfstate"
   }
 }
